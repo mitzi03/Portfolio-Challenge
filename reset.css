@@ -40,3 +40,7 @@
     list-style: none;
   }
   
+  .About-Me {
+    width: 75%;
+    display: inline-block;
+  }
