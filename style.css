@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    background-color: white;
+    box-shadow: 0 0 10px;
 }
 
 .backdrop {
@@ -94,6 +94,10 @@ aside h1 {
     text-align: center;
 
   }
+
+  .box:hover {
+    box-shadow: 0 0 10px;
+  }
   
   .box h2 {
     padding: 20px;
@@ -107,11 +111,14 @@ aside h1 {
 
 
 
-  div ul {
+  .contact ul {
     list-style-type:none;
     margin-left:500px;
+    display: flex;
+    float: right;
+
   }
- div ul li  {
+  .contact ul li  {
     display:inline-block;
     margin-left:25px;
     
