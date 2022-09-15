@@ -64,11 +64,14 @@ aside h1 {
     text-align: center;
     font-size: 30px;
     font-style: oblique;
+    height: 64px;
 }
+
 
 .text{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    height: 133px;
 }
 
  div h1 {
@@ -76,6 +79,7 @@ aside h1 {
     text-decoration: underline ;
     font-size: 30px;
     font-style: oblique;
+    height: 44px;
 }
 
 .work {
@@ -97,6 +101,7 @@ aside h1 {
 
   .box:hover {
     box-shadow: 0 0 10px;
+    
   }
   
   .box h2 {
